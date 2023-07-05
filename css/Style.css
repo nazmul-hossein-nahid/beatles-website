@@ -31,6 +31,7 @@ ul li {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
+    font-weight: 300;
 }
 
 .social-icon>a {
@@ -58,7 +59,7 @@ ul li {
     display: inline;
     padding: 0 10px;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    ffont-family: 'Oswald', sans-serif;
 }
 
 .menu ul li a {
@@ -71,7 +72,7 @@ ul li {
 
 .logo h3 {
     font-size: 32px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Oswald', sans-serif;
     color: #555;
 }
 
@@ -91,7 +92,7 @@ ul li {
     justify-content: right;
     align-items: center;
     text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .bannar-text h1 {
@@ -102,14 +103,18 @@ ul li {
 
 .bannar-text h2 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 300;
     padding-bottom: 10px;
+
 }
 
 .bannar-text p {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: aliceblue;
 }
 
 .btn {
@@ -119,8 +124,8 @@ ul li {
     background-color: transparent;
     color: aliceblue;
     margin: 0px 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
 }
 
 .btn:hover {
@@ -131,41 +136,44 @@ ul li {
 /* head and bannar css end hera */
 
 /* about section css start here */
-.about-area{
+.about-area {
     height: 450px;
     text-align: center;
 }
-.about-top h2{
+
+.about-top h2 {
     padding: 30px 0px;
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
-.about-contain{
+
+.about-contain {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.about-img{
+
+.about-img {
     width: 40%;
-    background:linear-gradient(130deg, #0873B9 50%, #fff 50%);
     height: 371px;
 }
-.about-text{   
+
+.about-text {
     width: 60%;
-   
+
 }
-.about-text p{
+
+.about-text p {
     padding-bottom: 20px;
     line-height: 25px;
     text-align: left;
     color: #555;
     padding-left: 20px;
 }
-.about-img > img{
+
+.about-img>img {
     width: 255px;
     height: 371px;
 }
-
-
-
 /* about section css end here */
+
