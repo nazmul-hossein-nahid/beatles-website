@@ -95,18 +95,19 @@ ul li {
 }
 
 .bannar-text h1 {
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 700;
     padding-bottom: 20px;
 }
 
 .bannar-text h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     padding-bottom: 10px;
 }
 
 .bannar-text p {
+    font-size: 20px;
     line-height: 30px;
     padding-bottom: 30px;
 }
@@ -128,3 +129,19 @@ ul li {
 }
 
 /* head and bannar css end hera */
+
+/* about section css start here */
+.about-area{
+    height: 500px;
+    background-color: beige;
+    padding-top: 30px;
+    text-align: center;
+}
+.about-contain{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* about section css end here */
